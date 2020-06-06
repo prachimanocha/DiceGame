@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">dicegame(kt)</string>
+    <string name="points_0">POINTS:0</string>
+    <string name="even">EVEN</string>
+    <string name="odd">ODD</string>
+    <string name="roll">ROLL</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+</resources>

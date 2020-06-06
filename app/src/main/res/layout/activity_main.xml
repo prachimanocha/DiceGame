@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points_0"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <Button
+        android:id="@+id/b_even"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:text="@string/even"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="667dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false" />
+
+    <Button
+        android:id="@+id/b_odd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/odd"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="664dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/b_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/roll"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageView
+        android:id="@+id/iv_dice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="200sp"
+        app:srcCompat="@drawable/dice6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="202dp"
+        android:contentDescription="@string/todo1" />
+
+    <ImageView
+        android:id="@+id/iv_dice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dice6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:contentDescription="@string/todo2" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:translationX="150sp"
+        android:translationY="100sp" />
+</RelativeLayout>
